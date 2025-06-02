@@ -37,6 +37,8 @@
             'md:grid-cols-2' => $columns === 2,
             'md:grid-cols-3' => $columns === 3,
             'md:grid-cols-2 xl:grid-cols-4' => $columns === 4,
+            'md:grid-cols-2 xl:grid-cols-5' => $columns === 5,
+            'md:grid-cols-2 xl:grid-cols-6' => $columns === 6,
         ])
     >
         @foreach ($this->getCachedStats() as $stat)
